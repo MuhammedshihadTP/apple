@@ -1,0 +1,512 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    ;
+
+
+}
+
+.navbar {
+    background-color: #323232;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    ;
+    font-weight: 600;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.apple {
+    width: 13%;
+    height: 45px;
+
+
+}
+
+.symbel {
+    width: 10%;
+    height: 47px;
+    margin-left: 300px;
+    align-content: center;
+
+
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15%;
+    margin-left: 10%;
+    cursor: pointer;
+
+
+
+}
+
+.button li {
+    margin: 0 20px;
+    color: aliceblue;
+    cursor: pointer;
+    opacity: 0.5;
+
+
+}
+
+.button li a:hover {
+    color: blue;
+}
+
+#im {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    background-size: 15px 88px;
+    background-position: 8px 0;
+    filter: invert();
+    /* background-repeat: inherit; */
+
+    /* background-image: url(); */
+
+
+
+
+}
+
+#cart {
+    width: 50px;
+    height: 50px;
+    padding-right: 25px;
+    margin-right: 15%;
+    display: flex;
+}
+
+.frist {
+    background: url(image/hero_iphone14__fjmsqstr1ceq_large.jpg);
+    display: flex;
+    background-size: cover;
+    align-items: center;
+    background-position: center;
+    width: 100%;
+    height: 40rem;
+
+}
+
+.content {
+
+    /* background-color: black; */
+    height: 40rem;
+    width: 600px;
+    margin-left: 500px;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* margin-top: 30px; */
+    /* align-content: center; */
+
+}
+
+.content h1 {
+    /* color: aliceblue; */
+    padding-left: 15px;
+    font-weight: bolder;
+    font-size: 400%;
+    margin-top: 15%;
+    padding-bottom: 15px;
+    align-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.content h2 {
+    padding-left: 100px;
+    font-weight: bolder;
+    font-weight: 100;
+    /* margin-top: 10%; */
+    /* padding-bottom: 15px; */
+    /* align-content: center; */
+    /* align-items: center; */
+    margin-left: 90px;
+
+
+}
+
+.li {
+    margin-top: 10px;
+    display: flex;
+    /* justify-items: center; */
+    width: 100%;
+    height: 7%;
+    /* background-color: black; */
+    justify-content: center;
+
+    /* justify-content: space-between; */
+
+
+}
+
+.li .a {
+    margin-right: 113px;
+}
+
+.li li {
+    justify-content: space-around;
+    margin-left: 10px;
+    display: inline;
+    justify-content: space-between;
+    padding-left: 20px;
+    font-size: 130%;
+
+}
+
+
+.second {
+    background: url(image/SECTION\ 2.jpg);
+    height: 36rem;
+    width: 100%;
+    margin-top: 10px;
+    padding-top: 5px;
+    background-position: center;
+
+}
+
+.content2 {
+
+    /* background-color: red;  */
+    height: 35rem;
+    width: 600px;
+    margin-left: 500px;
+    align-items: center;
+
+    /* margin-top: 30px; */
+    /* align-content: center; */
+    color: aliceblue;
+
+}
+
+.content2 h1 {
+    /* color: aliceblue; */
+    padding-left: 15px;
+
+    font-size: 400%;
+    margin-top: -10%;
+    padding-bottom: 15px;
+    align-content: center;
+    align-items: center;
+    margin-left: 159px;
+    color: aliceblue;
+}
+
+.content2 h3 {
+    padding-left: 11px;
+    font-weight: bolder;
+    word-spacing: 15;
+    font-size: 177%;
+
+    /* margin-top: 10%; */
+    /* padding-bottom: 15px; */
+    /* align-content: center; */
+    /* align-items: center; */
+    margin-left: 13px;
+}
+
+.app {
+    width: 10%;
+    height: 15%;
+    /* background-color: aliceblue; */
+    margin-left: 20px;
+
+
+}
+
+#appo {
+    width: 40px;
+    height: 7%;
+    filter: invert();
+
+    margin-left: 120px;
+    padding-top: 25px;
+
+}
+
+.section2 {
+    margin-top: 10px;
+    display: flex;
+    /* justify-items: center; */
+    width: 100%;
+    height: 7%;
+    /* background-color: black; */
+    justify-content: center;
+
+    /* justify-content: space-between; */
+
+
+}
+
+.section2 .b {
+    margin-right: 113px;
+}
+
+.section2 li {
+    justify-content: space-around;
+    margin-left: 10px;
+    display: inline;
+    justify-content: space-between;
+    padding-left: 20px;
+    font-size: 130%;
+
+}
+
+.therd {
+    /* background-color: black;  */
+    width: 100%;
+    height: 37vw;
+    margin-top: 10px;
+    display: flex;
+
+
+}
+
+.picter1 {
+    width: 50%;
+    height: 37vw;
+    background-color: aqua;
+    margin-left: 10px;
+    background: url(image/promo_iphone14pro__4n4twj56fzmu_large.jpg);
+    background-position: center;
+
+}
+
+.picter2 {
+
+    width: 50%;
+    height: 37vw;
+    background-color: aqua;
+    margin-left: 10px;
+    background: url(image/promo_ipad__fioegapg12qi_large.jpg);
+    background-position: center;
+    margin-right: 10px;
+}
+
+.c {
+    /* background-color: aliceblue;  */
+    width: 50%;
+    height: 40%;
+    margin-left: 25%;
+    margin-top: 20px;
+}
+
+
+.c h1 {
+    margin-left: 72px;
+    margin-top: 20px;
+    font-size: 250%;
+    margin-top: ;
+
+}
+
+.c h3 {
+    margin-left: 40%;
+    margin-top: 11px;
+}
+
+.c a {
+
+    margin-left: 78px;
+
+
+
+}
+
+.d {
+
+    /* background-color: rgb(11, 69, 120);  */
+    width: 50%;
+    height: 40%;
+    margin-left: 25%;
+    margin-top: 20px;
+
+}
+
+.d h1 {
+    margin-left: 142px;
+    margin-top: 20px;
+    font-size: 250%;
+    margin-top: ;
+
+}
+
+.d h3 {
+    margin-left: 21%;
+    margin-top: 11px;
+}
+
+.d a {
+
+    margin-left: 78px;
+
+
+
+}
+
+
+
+.forth {
+    /* background-color: black;  */
+    width: 100%;
+    height: 37vw;
+    margin-top: 10px;
+    display: flex;
+
+
+}
+
+.airpod {
+    width: 50%;
+    height: 37vw;
+    background-color: aqua;
+    margin-left: 10px;
+    background: url(image/promo_airpods_holiday__fqg7rt8b4vma_large.jpg);
+    background-position: center;
+
+}
+
+.e {
+    /* 
+    background-color: rgb(11, 69, 120);  */
+    width: 50%;
+    height: 40%;
+    margin-left: 25%;
+    margin-top: 20px;
+
+}
+
+.e h1 {
+    margin-left: 113px;
+    margin-top: 20px;
+    font-size: 250%;
+
+
+}
+
+.e h3 {
+    margin-left: 34%;
+    margin-top: 11px;
+    font-weight: 300;
+}
+
+.e a {
+    margin-left: 44%;
+    margin-top: 10px;
+}
+
+.f {
+    /* 
+        background-color: rgb(11, 69, 120);  */
+    width: 50%;
+    height: 40%;
+    margin-left: 25%;
+    margin-top: 20px;
+}
+
+.f img {
+    margin-left: 30%;
+    margin-top: 10px;
+
+}
+.f h4{
+    padding-left: 35%;
+    margin-left: 10px;
+    
+    
+}
+
+
+
+.iwacth {
+
+    width: 50%;
+    height: 37vw;
+    background-color: aqua;
+    margin-left: 10px;
+    background: url(image/promo_apple_watch_ultra__gnsqulvdc4a6_large.jpg);
+    background-position: center;
+    margin-right: 10px;
+}
+
+.fifth {
+    margin-top: 10px;
+    height: 40vw;
+    width: 100%;
+    background: url(image/spirited_hero__dlcfsduexsya_large.jpg);
+    background-position: center;
+
+}
+.butt{
+    width: 30%;
+    height: 30%;
+    /* background-color: black; */
+    padding-top: 20%;
+}
+button{
+    margin-top: 42%;
+    margin-left: 20%;
+    border-radius: 20px;
+    width: 25%;
+    height: 25%;
+    text-decoration: none;
+    color: black;
+    font-size: 75%;
+    font-weight: bolder;
+    opacity: 0.7;
+    
+}
+button:hover{
+    border-radius: 20px;
+    backgr;ound-color: white
+}
+.sixth{
+    margin-top: 10px;
+    width: 100%;
+    height: 25vw;
+    /* background-color: black; */
+    display: flex;
+
+}
+.para{
+    width: 70%;
+    height: 19vw;
+     /* background-color: aliceblue; */
+    margin-left: 15%;
+    padding-top: 15px;
+    display: flex;
+    margin-top: 50px;
+   text-align: start;
+    
+}
+.event{
+    /* background-color:black ; */
+    width: 70%;
+    height: 15vw;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 15%;
+
+}
+.footer{
+    height: 69px;
+    width: 100%;
+}
+.footer li{
+    display: flex;
+    display: inline;
+    justify-content: space-between;
+    margin-left: 10%;
+}
